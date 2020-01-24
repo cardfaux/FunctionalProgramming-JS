@@ -15,12 +15,6 @@ purchaseItem2(
 	buyItem,
 	emptyUserCart
 )(user, { name: 'laptop', price: 60 });
-// purchaseItem(
-//   emptyUserCart,
-//   buyItem,
-//   applyTaxToItems,
-//   addItemToCart
-// )(user, {name: 'laptop', price: 50})
 function addItemToCart(user, item) {
 	history1.push(user);
 	const updatedCart = user.cart.concat(item);
